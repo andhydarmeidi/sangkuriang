@@ -6,7 +6,7 @@ export default class Menu extends Component {
       <div>
         <aside className="main-sidebar sidebar-dark-primary elevation-4">
           <a href="index3.html" className="brand-link">
-            <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '0.8' }} />
+            <img src="dist/img/logo onli grad.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '0.8' }} />
             <span className="brand-text font-weight-light">GEOLOGI BDG</span>
           </a>
           <div className="sidebar">
@@ -16,7 +16,7 @@ export default class Menu extends Component {
               </div>
               <div className="info">
                 <a href="#" className="d-block">
-                  Alexander Pierce
+                  Roni Andarsyah
                 </a>
               </div>
             </div>
@@ -40,26 +40,7 @@ export default class Menu extends Component {
                       <i className="right fas fa-angle-left" />
                     </p>
                   </a>
-                  <ul className="nav nav-treeview">
-                    <li className="nav-item">
-                      <a href="./index.html" className="nav-link active">
-                        <i className="far fa-circle nav-icon" />
-                        <p>Dashboard v1</p>
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a href="./index2.html" className="nav-link">
-                        <i className="far fa-circle nav-icon" />
-                        <p>Dashboard v2</p>
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a href="./index3.html" className="nav-link">
-                        <i className="far fa-circle nav-icon" />
-                        <p>Dashboard v3</p>
-                      </a>
-                    </li>
-                  </ul>
+                  <ul className="nav nav-treeview"></ul>
                 </li>
                 <li className="nav-item">
                   <a href="pages/widgets.html" className="nav-link">
