@@ -6,13 +6,13 @@ export default class Menu extends Component {
       <div>
         <aside className="main-sidebar sidebar-dark-primary elevation-4">
           <a href="index.html" className="brand-link">
-            <img src="dist/img/logo onli grad.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '0.8' }} />
+            <img src="dist/img/raynoz.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '0.8' }} />
             <span className="brand-text font-weight-light">Museum Geologi</span>
           </a>
           <div className="sidebar">
             <div className="user-panel mt-3 pb-3 mb-3 d-flex">
               <div className="image">
-                <img src="dist/img/user2-160x160.jpg" className="img-circle elevation-2" alt="User Image" />
+                <img src="dist/img/ronipns.png" className="img-circle elevation-2" alt="User Image" />
               </div>
               <div className="info">
                 <a href="#" className="d-block">
