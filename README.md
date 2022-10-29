@@ -2,7 +2,7 @@
 
 Front end koleksi data geologi
 
-run otomatis [https://museumgeologi.herokuapp.com/](https://museumgeologi.herokuapp.com/)
+run otomatis [https://sangkuriang-app.herokuapp.com/](https://sangkuriang-app.herokuapp.com/)
 
 ## Persiapan
 
