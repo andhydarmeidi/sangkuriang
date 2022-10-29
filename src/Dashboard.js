@@ -9,14 +9,14 @@ export default class Dashboard extends Component {
             <div className="container-fluid">
               <div className="row mb-2">
                 <div className="col-sm-6">
-                  <h1 className="m-0">Dashboard</h1>
+                  <h1 className="m-0">Dashboard Sangkuriang</h1>
                 </div>
                 <div className="col-sm-6">
                   <ol className="breadcrumb float-sm-right">
                     <li className="breadcrumb-item">
                       <a href="#">Home</a>
                     </li>
-                    <li className="breadcrumb-item active">Dashboard v1</li>
+                    <li className="breadcrumb-item active">Dashboard Geologi Bandung</li>
                   </ol>
                 </div>
               </div>
@@ -29,10 +29,11 @@ export default class Dashboard extends Component {
                   <div className="small-box bg-info">
                     <div className="inner">
                       <h3>150</h3>
-                      <p>New Orders</p>
+                      <p>Bebatuan</p>
                     </div>
                     <div className="icon">
-                      <i className="ion ion-bag" />
+                      <i className="ion ion-pie-graph" />
+                      <i class="fa-solid fa-hill-rockslide"></i>
                     </div>
                     <a href="#" className="small-box-footer">
                       More info <i className="fas fa-arrow-circle-right" />
@@ -45,7 +46,7 @@ export default class Dashboard extends Component {
                       <h3>
                         53<sup style={{ fontSize: 20 }}>%</sup>
                       </h3>
-                      <p>Bounce Rate</p>
+                      <p>Vertebrata</p>
                     </div>
                     <div className="icon">
                       <i className="ion ion-stats-bars" />
@@ -59,7 +60,7 @@ export default class Dashboard extends Component {
                   <div className="small-box bg-warning">
                     <div className="inner">
                       <h3>44</h3>
-                      <p>User Registrations</p>
+                      <p>Invertebrata</p>
                     </div>
                     <div className="icon">
                       <i className="ion ion-person-add" />
@@ -73,7 +74,7 @@ export default class Dashboard extends Component {
                   <div className="small-box bg-danger">
                     <div className="inner">
                       <h3>65</h3>
-                      <p>Unique Visitors</p>
+                      <p>Artefak</p>
                     </div>
                     <div className="icon">
                       <i className="ion ion-pie-graph" />
@@ -90,18 +91,25 @@ export default class Dashboard extends Component {
                     <div className="card-header">
                       <h3 className="card-title">
                         <i className="fas fa-chart-pie mr-1" />
-                        Sales
+                        Grafik Data Koleksi
                       </h3>
                       <div className="card-tools">
                         <ul className="nav nav-pills ml-auto">
                           <li className="nav-item">
                             <a className="nav-link active" href="#revenue-chart" data-toggle="tab">
-                              Area
+                              Bebatuan
                             </a>
                           </li>
+
                           <li className="nav-item">
                             <a className="nav-link" href="#sales-chart" data-toggle="tab">
-                              Donut
+                              Artefak
+                            </a>
+                          </li>
+
+                          <li className="nav-item">
+                            <a className="nav-link active" href="#revenue-chart" data-toggle="tab">
+                              Vertebrata
                             </a>
                           </li>
                         </ul>
@@ -120,7 +128,7 @@ export default class Dashboard extends Component {
                   </div>
                   <div className="card direct-chat direct-chat-primary">
                     <div className="card-header">
-                      <h3 className="card-title">Direct Chat</h3>
+                      <h3 className="card-title">Ulasan Masyarakat</h3>
                       <div className="card-tools">
                         <span title="3 New Messages" className="badge badge-primary">
                           3
@@ -140,35 +148,35 @@ export default class Dashboard extends Component {
                       <div className="direct-chat-messages">
                         <div className="direct-chat-msg">
                           <div className="direct-chat-infos clearfix">
-                            <span className="direct-chat-name float-left">Alexander Pierce</span>
+                            <span className="direct-chat-name float-left">Mang Ujang</span>
                             <span className="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                           </div>
                           <img className="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image" />
-                          <div className="direct-chat-text">Is this template really for free? That's unbelievable!</div>
+                          <div className="direct-chat-text">Aya fosil hargana mahal pisan, eh ternyata jam tangan fossil</div>
                         </div>
                         <div className="direct-chat-msg right">
                           <div className="direct-chat-infos clearfix">
-                            <span className="direct-chat-name float-right">Sarah Bullock</span>
+                            <span className="direct-chat-name float-right">Ceu Edoh</span>
                             <span className="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                           </div>
                           <img className="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image" />
-                          <div className="direct-chat-text">You better believe it!</div>
+                          <div className="direct-chat-text">Meuni Emejing pisan mang ujang teh</div>
                         </div>
                         <div className="direct-chat-msg">
                           <div className="direct-chat-infos clearfix">
-                            <span className="direct-chat-name float-left">Alexander Pierce</span>
+                            <span className="direct-chat-name float-left">Kang Emus</span>
                             <span className="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
                           </div>
                           <img className="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image" />
-                          <div className="direct-chat-text">Working with AdminLTE on a great new app! Wanna join?</div>
+                          <div className="direct-chat-text">Ulah garandeng wae, sok ngarumpul barudak</div>
                         </div>
                         <div className="direct-chat-msg right">
                           <div className="direct-chat-infos clearfix">
-                            <span className="direct-chat-name float-right">Sarah Bullock</span>
+                            <span className="direct-chat-name float-right">Iteung</span>
                             <span className="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
                           </div>
                           <img className="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image" />
-                          <div className="direct-chat-text">I would love to.</div>
+                          <div className="direct-chat-text">Tuh geura kumpul barudak</div>
                         </div>
                       </div>
                       <div className="direct-chat-contacts">
@@ -265,7 +273,7 @@ export default class Dashboard extends Component {
                     <div className="card-header">
                       <h3 className="card-title">
                         <i className="ion ion-clipboard mr-1" />
-                        To Do List
+                        Urutan Pekerjaan
                       </h3>
                       <div className="card-tools">
                         <ul className="pagination pagination-sm">
@@ -421,7 +429,7 @@ export default class Dashboard extends Component {
                     <div className="card-header border-0">
                       <h3 className="card-title">
                         <i className="fas fa-map-marker-alt mr-1" />
-                        Visitors
+                        Lokasi
                       </h3>
                       <div className="card-tools">
                         <button type="button" className="btn btn-primary btn-sm daterange" title="Date range">
@@ -439,15 +447,15 @@ export default class Dashboard extends Component {
                       <div className="row">
                         <div className="col-4 text-center">
                           <div id="sparkline-1" />
-                          <div className="text-white">Visitors</div>
+                          <div className="text-white">Bebatuan</div>
                         </div>
                         <div className="col-4 text-center">
                           <div id="sparkline-2" />
-                          <div className="text-white">Online</div>
+                          <div className="text-white">Invertebrata</div>
                         </div>
                         <div className="col-4 text-center">
                           <div id="sparkline-3" />
-                          <div className="text-white">Sales</div>
+                          <div className="text-white">Artefak</div>
                         </div>
                       </div>
                     </div>
@@ -456,7 +464,7 @@ export default class Dashboard extends Component {
                     <div className="card-header border-0">
                       <h3 className="card-title">
                         <i className="fas fa-th mr-1" />
-                        Sales Graph
+                        Grafik data koleksi
                       </h3>
                       <div className="card-tools">
                         <button type="button" className="btn bg-info btn-sm" data-card-widget="collapse">
