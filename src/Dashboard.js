@@ -22,7 +22,7 @@ export default class Dashboard extends Component {
               </div>
             </div>
           </div>
-          <section className="content">
+          <section className="content-dark-primary">
             <div className="container-fluid">
               <div className="row">
                 <div className="col-lg-3 col-6">
