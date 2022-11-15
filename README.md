@@ -4,7 +4,7 @@ Front end koleksi data geologi
 
 run otomatis [https://sangkuriang-app.herokuapp.com/](https://sangkuriang-app.herokuapp.com/)
 
-NUP (Manual) dan Bisa Otomatis (Nanti)
+NUP (Manual)
 
 ## Persiapan
 
